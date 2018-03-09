@@ -6,8 +6,8 @@ This Repository documents my classwork and projects for CPS342
  		Name: Jonathan Bing;
 	
  		Major: Computer Science;
-		
-		ID: [N03196784](https://github.com/N03196784);
+	
+		ID: [N03196784](https://github.com/N03196784)
 		
 		Year: Junior;
  
