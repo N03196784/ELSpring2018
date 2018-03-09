@@ -2,7 +2,7 @@
 # ELSpring2018
 This Repository documents my classwork and projects for CPS342
 
- 1. Personal Information
+ __1. Personal Information__
  
  Name: Jonathan Bing
  
@@ -12,6 +12,6 @@ This Repository documents my classwork and projects for CPS342
  
  Year: Junior
  
- 2.Class start date: Jan 22, 2018
+ __2.Class start date: Jan 22, 2018__
  
- 3.Class end date: May 8, 2018
+__ 3.Class end date: May 8, 2018__
