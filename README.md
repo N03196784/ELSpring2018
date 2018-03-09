@@ -13,5 +13,5 @@ This Repository documents my classwork and projects for CPS342
  Year: Junior
  
  __2.Class start date: Jan 22, 2018__
- 
-__ 3.Class end date: May 8, 2018__
+
+ __3.Class end date: May 8, 2018__
