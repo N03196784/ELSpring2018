@@ -11,7 +11,7 @@ import OpenSSL
 from oauth2client.service_account import ServiceAccountCredentials
 
 #sets permissions for the sensor reading C code
-os.system("chmod a+x /home/pi/Desktop/ELSpring2018/CodeEmbeddedFinal/sensor_interface")
+os.system("chmod a+x /home/pi/CodeEmbeddedFinal/sensor_interface")
 
 #searches the directories within the current directory to locate the name of the .json file to store into variable
 txt_files = [f for f in os.listdir('.') if f.endswith('.json')]
@@ -32,7 +32,7 @@ def login_open_sheet(oauth_key_file, spreadsheet):
 		scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 		credentials = ServiceAccountCredentials.from_json_keyfile_name(oauth_key_file, scope)
 		gc = gspread.authorize(credentials)
-		worksheet = gc.open(spreadsheet).get_worksheet(0)
+		worksheet = gc.open(spreadsheet).get_worksheet(2)
 		return worksheet
 	#if key is not found error exception thrown	
 	except Exception as ex:
@@ -48,7 +48,7 @@ while True:
 		worksheet = login_open_sheet(GDOCS_OAUTH_JSON, GDOCS_SPREADSHEET_NAME)
 		print('opened sheet')
 	#Activates the sensor which reads the temperature and humidity
-	os.system("/home/pi/Desktop/ELSpring2018/CodeEmbeddedFinal/./sensor_interface")
+	os.system("/home/pi/CodeEmbeddedFinal/./sensor_interface")
 	#reading in the temperature values from the values from the sensor stored by the C code	
 	f = open("readings.txt", "r")
 	tempC = int(f.readline())
