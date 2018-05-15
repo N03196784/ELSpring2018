@@ -27,10 +27,8 @@ This Repository documents my classwork and projects for CPS342
   -To develop a driver for interfacing with the sensor itself using C code.
   
   -To write python code to interface with the google sheet api using several downloaded librarires and a JSON, Service Account Key.
-  
-  
-  
-  
+
+  __Work Division:__
   
   Joe Adamczyk: 33.3% ---> Sensor Driver and 3D printing
   
@@ -43,17 +41,17 @@ This Repository documents my classwork and projects for CPS342
  
  __Achievements:__
  
- We made 3d printed boxes for the units
+   -Made 3d printed boxes for the units
  
- We made a modular and extendable temperature sensor system
+   -Made a modular and extendable temperature sensor system
  
- We made a google sheet-based database system for logging data
+   -Made a google sheet-based database system for logging data
  
- We made scripts to log and send data to the sheets
+   -Made scripts to log and send data to the sheets
  
- We made a web interface for displaying the data
+   -Made a web interface for displaying the data
  
- We made a driver for the one-wire serial temperature and humidity sensor
+   -Made a driver for the one-wire serial temperature and humidity sensor
  
  
  
@@ -69,7 +67,3 @@ This Repository documents my classwork and projects for CPS342
  
  5. In order to make the website use the new pi's data in the charts you have to copy the "GID" number from the URL of the sheet and      
  paste it into "index.html" -> "draw chart" -> "GidNum" variable....If further guidance needed refer to install tab on the webpage
- 
- 
- 
- 
