@@ -19,6 +19,7 @@ This Repository documents my classwork and projects for CPS342
 # FINAL PROJECT README AND INSTRUCTIONS: 
  
  __Goals:__
+ 
   -To make a modular, extendable, automatic temperature and humidity data logging device. 
   
   -To create system to be able to store the data collected into a central locaton, which in our case was google spreadsheet.
@@ -26,6 +27,9 @@ This Repository documents my classwork and projects for CPS342
   -To develop a driver for interfacing with the sensor itself using C code.
   
   -To write python code to interface with the google sheet api using several downloaded librarires and a JSON, Service Account Key.
+  
+  
+  
   
   
   Joe Adamczyk: 33.3% ---> Sensor Driver and 3D printing
@@ -37,7 +41,7 @@ This Repository documents my classwork and projects for CPS342
   Chikkaral Easwarren: .01% :)
   
  
- __Achievements;__
+ __Achievements:__
  
  We made 3d printed boxes for the units
  
